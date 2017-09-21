@@ -34,7 +34,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return array = [element, ...array]
+  array = [element, ...array]
 }
 
 function addElementToEndOfArray(array, element) {
